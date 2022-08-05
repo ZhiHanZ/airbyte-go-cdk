@@ -14,6 +14,7 @@ type cmd string
 const (
 	cmdSpec     cmd = "spec"
 	cmdCheck    cmd = "check"
+	cmdWrite    cmd = "write"
 	cmdDiscover cmd = "discover"
 	cmdRead     cmd = "read"
 )
